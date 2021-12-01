@@ -1,7 +1,7 @@
 package forum
 
 import (
-	eos "github.com/eoscanada/eos-go"
+	eos "github.com/yekai1003/eos-go"
 )
 
 // NewPropose is an action to submit a proposal for vote.

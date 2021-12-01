@@ -8,7 +8,7 @@ import (
 
 	"encoding/json"
 
-	"github.com/eoscanada/eos-go/ecc"
+	"github.com/yekai1003/eos-go/ecc"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

@@ -3,7 +3,7 @@ package ship
 import (
 	"fmt"
 
-	"github.com/eoscanada/eos-go"
+	"github.com/yekai1003/eos-go"
 )
 
 func NewGetBlocksAck(num uint32) []byte {

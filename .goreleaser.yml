@@ -5,7 +5,7 @@ env_files:
 
 release:
   github:
-    owner: eoscanada
+    owner: yekai1003
     name: eos-go
   draft: true
   name_template: '{{.Tag}}'

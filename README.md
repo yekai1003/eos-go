@@ -2,7 +2,7 @@
 
 [点击查看中文版](./README-cn.md)
 
-[![GoDoc](https://godoc.org/github.com/eoscanada/eos-go?status.svg)](https://godoc.org/github.com/eoscanada/eos-go)
+[![GoDoc](https://godoc.org/github.com/yekai1003/eos-go?status.svg)](https://godoc.org/github.com/yekai1003/eos-go)
 
 This library provides simple access to data structures (binary packing
 and JSON interface) and API calls to an EOS.IO RPC server, running
@@ -15,7 +15,7 @@ flux. Don't expect stability, as we're moving alongside the main
 `eosio` codebase, which changes very fast.
 
 This library is the basis for the `eos-bios` launch orchestrator tool
-at https://github.com/eoscanada/eos-bios
+at https://github.com/yekai1003/eos-bios
 
 
 ### Basic usage
@@ -28,7 +28,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	eos "github.com/eoscanada/eos-go"
+	eos "github.com/yekai1003/eos-go"
 	cli "github.com/streamingfast/cli"
 )
 

@@ -1,8 +1,8 @@
 package snapshot
 
 import (
-	"github.com/eoscanada/eos-go"
-	"github.com/eoscanada/eos-go/ecc"
+	"github.com/yekai1003/eos-go"
+	"github.com/yekai1003/eos-go/ecc"
 )
 
 type GenesisState struct {

@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/eoscanada/eos-go/ecc"
+	"github.com/yekai1003/eos-go/ecc"
 )
 
 func main() {

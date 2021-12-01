@@ -1,7 +1,7 @@
 package system
 
 import (
-	eos "github.com/eoscanada/eos-go"
+	eos "github.com/yekai1003/eos-go"
 )
 
 // NewUnregProducer returns a `unregprod` action that lives on the
