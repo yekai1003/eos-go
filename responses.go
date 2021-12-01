@@ -354,8 +354,8 @@ type PushTransactionFullResp struct {
 	StatusCode    string
 	TransactionID string               `json:"transaction_id"`
 	Processed     TransactionProcessed `json:"processed"` // WARN: is an `fc::variant` in server..
-	BlockID       string               `json:"block_id"`
-	BlockNum      uint32               `json:"block_num"`
+	BlockID       string               `json:"producer_block_id"`
+	//BlockNum      uint32               `json:"block_num"`
 }
 
 type TransactionProcessed struct {
@@ -370,6 +370,8 @@ type Trace struct {
 	// Action     Action       `json:"act"` // FIXME: how do we unpack that ? what's on the other side anyway?
 	Console    SafeString   `json:"console"`
 	DataAccess []DataAccess `json:"data_access"`
+	BlockNum   uint32       `json:"block_num"`
+	RetValData string       `json:"return_value_data"`
 }
 
 type DataAccess struct {
