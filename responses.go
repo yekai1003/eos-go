@@ -371,7 +371,7 @@ type Trace struct {
 	Console    SafeString   `json:"console"`
 	DataAccess []DataAccess `json:"data_access"`
 	BlockNum   uint32       `json:"block_num"`
-	RetValData string       `json:"return_value_data"`
+	RetValData interface{}  `json:"return_value_data"`
 }
 
 type DataAccess struct {
